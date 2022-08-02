@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter Questions (60)</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="card.css">
+</head>
+<body>
+
+    <header class="headerClass">
+        <div id="headerDiv">
+            <div id="headerTextDiv">
+                <h1 style="text-align: center;">Twitter Questions (60)</h1>
+                <h3 style="text-align: center; font-weight:700;">60+ Questions for Front-End Developers</h3>
+            </div>
+            <div id="headerNavMenuDiv">
+                <nav id="headerNav">
+                    <a href="#HTMLQuestionsDiv">HTML Questions</a>
+                    <a href="#CSSQuestionsDiv">CSS Questions</a>
+                    <div class="dropdown">
+                        <a href="#JSQuestionsDiv">JavaScript Questions</a>
+                        <div class="dropdown-content">
+                            <a href="#GeneralDiv">General</a>
+                            <a href="#StringDiv">String</a>
+                            <a href="#ArrayDiv">Array</a>
+                            <a href="#FunctionDiv">Function</a>
+                        </div>
+                    </div>
+                </nav>
+
+            </div>
+        </div>
+    </header>
+    
+    <p class="headerP">These questions are from a tweet I found on twitter. This will serve as a place to learn myself. I'm going to list and answer the questions.</p>
+    <p class="headerP">The link is listed here <span><a href="https://twitter.com/swapnakpanda/status/1535966576444178432?s=21&t=0E-FKhnV0zJrh5G3D5GUUQ">60+ Questions for Front-End Developers</a></span></p>
+
+    <p class="headerP" >I'm going to start with the basics, by making the questions hardcoded, simply. I'll then change it into UL and then a JS file that populates the document.</p>
+    
+    <div id="wrapContainer">
+
+    <div class="sectionsDiv">
+        <h2 class="sectionsH2">HTML Questions</h2>
+        <div class="cardDiv" id="HTMLQuestionsDiv"></div>
+
+    </div>
+
+    <div class="sectionsDiv">
+        <h2 class="sectionsH2">CSS Questions</h2>
+        <div class="cardDiv" id="CSSQuestionsDiv"></div>
+
+    </div>
+
+    <div class="sectionsDiv">
+        <h2 class="sectionsH2">Javascript Questions</h2>
+        <div class="JSQuestionContainer" id="JSQuestionsDiv">
+            <h4><em>General</em></h4>
+            <div class="cardDiv" id="GeneralDiv"></div>
+            <h4><em>String</em></h4>
+            <div class="cardDiv" id="StringDiv"></div>
+            <h4><em>Array</em></h4>
+            <div class="cardDiv" id="ArrayDiv"></div>
+            <h4><em>Function</em></h4>
+            <div class="cardDiv" id="FunctionDiv"></div>
+        </div>
+
+    </div>
+
+</div>
+
+    <script src="./TwitterQuestions(60)/QUESTIONS.JS"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
